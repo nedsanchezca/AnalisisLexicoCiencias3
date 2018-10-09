@@ -2,10 +2,10 @@ import ply.lex as lex
 
 pReserv =['SI','si','entonces','ENTONCES','repetir','REPETIR','para','PARA','hacer','HACER','SINO','sino','mientras','MIENTRAS','HASTA','hasta','fin','FIN','ESCRIBIR','escribir','leer','LEER']
 relacional=['<','>','<=','>=','==','!=','menor','MENOR','mayor','MAYOR','diferente','DIFERENTE','menor','MENOR','mayor','MAYOR']
-SUMA=['suma','SUMA','sum','SUM','sumar','SUMAR']
-RESTA=['resta','RESTA','rest','REST','restar','RESTAR']
-MULTIPLICACION=['mult','MULT','multiplicar','MULTIPLICAR','multiplicacion','MULTIPLICACION']
-DIVISION=['div','DIV','dividir','DIVIDIR','division','DIVISION']
+SUMA=['suma','SUMA','sum','SUM','sumar','SUMAR','+']
+RESTA=['resta','RESTA','rest','REST','restar','RESTAR','-']
+MULTIPLICACION=['mult','MULT','multiplicar','MULTIPLICAR','multiplicacion','MULTIPLICACION','*']
+DIVISION=['div','DIV','dividir','DIVIDIR','division','DIVISION','/']
 tokens = ['PRESERVADA','RELACIONAL','VARIABLE','NUMERO','SUMA','RESTA','MULTIPLICACION','PARENTESISABIERTO','PARENTESISCERRADO', 'DIVISION','FINAL','ASIGNACION','POTENCIACION','MODULO']+pReserv
 
 t_ignore = ' \t | \n'
