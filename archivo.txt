@@ -1,0 +1,16 @@
+si 3 < 4 entonces
+>
+holis
+a = b
+sino
+si a != b hacer
+a = 3
+z
+suma
+-
+==
+fin si
+fin para
+menor
+==	
+
